@@ -1,6 +1,7 @@
 # 🧭 Pusula Sahne Asistanı
 
 Modern, şık tasarımlı ve akıllı sekme yapısına sahip bir müzik grubu asistanı uygulaması. Bu uygulama ile müzik grupları kendi repertuvarlarını oluşturabilir, şarkıların zorluklarını/durumlarını takip edebilir, provalarını planlayıp sonuçlandırabilir ve konserler için setlist'ler (şarkı listeleri) hazırlayabilir.
+Web'de görüntülemek için: https://pusula-sahne-asistani.netlify.app
 
 ## 🚀 Özellikler
 
