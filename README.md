@@ -1,42 +1,66 @@
 # 🧭 Pusula Sahne Asistanı
 
-Modern, şık tasarımlı ve akıllı sekme yapısına sahip bir müzik grubu asistanı uygulaması. Bu uygulama ile müzik grupları kendi repertuvarlarını oluşturabilir, şarkıların zorluklarını/durumlarını takip edebilir, provalarını planlayıp sonuçlandırabilir ve konserler için setlist'ler (şarkı listeleri) hazırlayabilir.
-Web'de görüntülemek için: https://pusula-sahne-asistani.netlify.app
+Modern, şık tasarımlı ve akıllı sekme yapısına sahip bir **müzik grubu asistanı** uygulaması. Müzik grupları repertuvarlarını oluşturabilir, şarkıların durumlarını takip edebilir, provalarını planlayabilir ve konserler için setlist'ler hazırlayabilir.
+
+🌐 **Canlı Demo:** [pusula-sahne-asistani.netlify.app](https://pusula-sahne-asistani.netlify.app)
+
+---
 
 ## 🚀 Özellikler
 
-- **🎵 Repertuvar Yönetimi (Ana Sayfa & Repertuvar Sekmesi):** Şarkı adı, sanatçı, BPM, ton, tür, durum, zorluk seviyesi ve şarkı notları ile yepyeni şarkılar (Create). Şarkıların durumlarına (Tamamlandı, Öğreniliyor, Eklenebilir) göre filtrelenip (Read) listelenmesi. İstenildiği zaman detayların güncellenmesi (Update) ve silinmesi (Delete).
-- **📅 Provalar (Provalar Sekmesi):** Belirli bir tarih ve not ile provalar "Planlandı" veya "Yapıldı" durumlarıyla eklenebilir.
-- **🎸 Setlistler (Setlistler Sekmesi):** Repertuvardaki şarkı havuzundan (durum filtrelemeleriyle birlikte) şarkılar seçilebilir, sıra değiştirilerek (sürükle-bırak mantığına benzer ikonlarla) etkinlik listeleri oluşturulabilir.
+### 🎵 Repertuvar Yönetimi
+Şarkı adı, sanatçı, BPM, ton, tür, durum, zorluk seviyesi ve notlarıyla şarkı yönetimi (CRUD). Durum filtreleriyle (Tamamlandı / Öğreniliyor / Eklenebilir) listeleme.
 
-Tüm veriler tarayıcınızın **LocalStorage** alanına kaydedilir, sayfa yenilense de veri kaybı yaşanmaz.
+### 📅 Provalar
+Belirli bir tarih ve not ile "Planlandı" veya "Yapıldı" durumlarında prova kaydı oluşturma.
+
+### 🎸 Setlistler
+Repertuvardaki şarkı havuzundan şarkı seçerek, sıra değiştirilerek (ikona basarak) etkinlik listeleri oluşturma.
+
+> 💾 Tüm veriler tarayıcının **LocalStorage** alanına kaydedilir — sayfa yenilense de veri kaybı yaşanmaz.
+
+---
 
 ## 💻 Kullanılan Teknolojiler
 
-- **ReactJS (.jsx):** Fonksiyonel bileşenler ve Hook'lar (useState, useEffect vb.) kullanılarak tasarlanmıştır.
-- **Vite:** Çok daha hızlı derleme süreci ve geliştirme ortamı için kullanılmıştır.
-- **Tailwind CSS:** Custom ve responsive tasarımlar, animasyonlar, glow (parlama) efektleri ve mobil uyumluluk için kullanılmıştır.
+| Teknoloji | Kullanım Amacı |
+|-----------|---------------|
+| **ReactJS (.jsx)** | Fonksiyonel bileşenler ve Hook'lar (`useState`, `useEffect` vb.) |
+| **Vite** | Hızlı derleme ve geliştirme ortamı |
+| **Tailwind CSS** | Responsive tasarım, animasyonlar, glow efektleri, mobil uyumluluk |
+
+---
 
 ## 🛠️ Kurulum ve Çalıştırma
 
-Projenin yerel bilgisayarınızda (local) çalıştırılabilmesi için sisteminizde Node.js yüklü olması gerekmektedir.
+Yerel çalıştırma için sisteminizde **Node.js** yüklü olması gerekmektedir.
 
-1. Projeyi bilgisayarınıza indirin (ya da klonlayın).
-2. Terminal (Komut İstemi) üzerinden proje klasörüne gidin.
-3. Gerekli bağımlılıkları (paketleri) yüklemek için şu komutu çalıştırın:
+1. Projeyi klonlayın:
+   ```bash
+   git clone https://github.com/EmreGns/Pusula-Sahne-Asistani.git
+   ```
+2. Proje klasörüne gidin:
+   ```bash
+   cd Pusula-Sahne-Asistani
+   ```
+3. Bağımlılıkları yükleyin:
    ```bash
    npm install
    ```
-4. Geliştirme (development) sunucusunu başlatmak için şu komutu çalıştırın:
+4. Geliştirme sunucusunu başlatın:
    ```bash
    npm run dev
    ```
-5. Terminalde beliren bağlantıya (genellikle `http://localhost:5173`) tıklayarak projeyi tarayıcınızda açabilirsiniz.
+5. Terminalde beliren bağlantıya (genellikle `http://localhost:5173`) tıklayarak projeyi açın.
+
+---
 
 ## 📱 Mobil Uyumluluk
 
-Tamamen Responsive (duyarlı) bir tasarıma sahiptir. iOS/Android cihazlardaki deneyime uygun şekilde menüler, formlar ve görünümler küçük ekranlara otomatik uyum sağlar. Müzisyenlerin provalarda cep telefonundan kolayca kullanabilmesi için test edilmiş ve optimize edilmiştir.
+Tamamen **Responsive** tasarıma sahiptir. iOS/Android cihazlardaki deneyime uygun şekilde menüler, formlar ve görünümler küçük ekranlara otomatik uyum sağlar. Müzisyenlerin provalarda cep telefonundan kolayca kullanabilmesi için test edilmiş ve optimize edilmiştir.
+
+---
 
 ## 🔧 Proje Yapısı
 
-Dosya dizilimi düzenli bir mimari baz alınarak (`Components`, `Pages`, `Interfaces` gibi ek klasörlerle) inşa edilmiştir. İkonlar harici bağımlılık yaratmamak adına `inline SVG` olarak eklenmiştir.
+Dosya dizilimi düzenli bir mimari baz alınarak (`Components`, `Pages`, `Interfaces` gibi klasörlerle) inşa edilmiştir. İkonlar harici bağımlılık yaratmamak adına `inline SVG` olarak eklenmiştir.
