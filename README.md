@@ -13,7 +13,7 @@ Tüm veriler tarayıcınızın **LocalStorage** alanına kaydedilir, sayfa yenil
 
 ## 💻 Kullanılan Teknolojiler
 
-- **ReactJS (.jsx):** Fonksiyonel bileşenler ve Hook'lar (useState, useEffect vb.) kullanılarak tasarlanmıştır
+- **ReactJS (.jsx):** Fonksiyonel bileşenler ve Hook'lar (useState, useEffect vb.) kullanılarak tasarlanmıştır.
 - **Vite:** Çok daha hızlı derleme süreci ve geliştirme ortamı için kullanılmıştır.
 - **Tailwind CSS:** Custom ve responsive tasarımlar, animasyonlar, glow (parlama) efektleri ve mobil uyumluluk için kullanılmıştır.
 
