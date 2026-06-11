@@ -37,7 +37,7 @@ Repertuvardaki şarkı havuzundan hızlıca parça seçerek konser veya sahneler
 Grubun müzik yolculuğuna genel bakış sağlayan, şarkı havuzundaki istatistikleri (Tamamlanan, öğrenilecek şarkı sayıları vb.) gösteren ve hızlıca yeni şarkı eklemeyi sağlayan dashboard ekranı:
 
 <p align="center">
-  <img width="850" alt="Ana Sayfa ve Şarkı Ekleme Ekranı" src="https://github.com/user-attachments/assets/567c008b-af34-444c-812b-f90c70115b87" />
+  <img width="1067" height="797" alt="proje_gorsel_1" src="https://github.com/user-attachments/assets/fa076daa-9f99-4b70-b645-068c4662da44" />
 </p>
 
 ---
@@ -46,7 +46,7 @@ Grubun müzik yolculuğuna genel bakış sağlayan, şarkı havuzundaki istatist
 Şarkıların zorluk seviyelerine, çalışma durumlarına göre gruplandığı ve arama/filtreleme yapılabilen dinamik repertuvar listesi:
 
 <p align="center">
-  <img width="850" alt="Repertuvar Listesi" src="https://github.com/user-attachments/assets/963b1667-b6bc-4109-8941-ae8c9b96103d" />
+  <img width="1416" height="918" alt="proje_gorsel_3" src="https://github.com/user-attachments/assets/47e5f7e5-8587-4a12-845d-1e98f3b5b8de" />
 </p>
 
 ---
@@ -55,7 +55,7 @@ Grubun müzik yolculuğuna genel bakış sağlayan, şarkı havuzundaki istatist
 Repertuvardan bir şarkıya tıklandığında açılan; vokal, gitar, bas gitar veya bateri için özel alınmış sahne notlarını, akorları ve sözleri gösteren modal (popup) ekranı:
 
 <p align="center">
-  <img width="850" alt="Şarkı Sahne Notları Ekranı" src="https://github.com/user-attachments/assets/356c6122-149b-47a9-99ca-6ad9e8b3873a" />
+  <img width="1107" height="725" alt="proje_gorsel_2" src="https://github.com/user-attachments/assets/84312361-dd07-404b-beae-f0e01b4258c9" />
 </p>
 
 ---
@@ -64,7 +64,7 @@ Repertuvardan bir şarkıya tıklandığında açılan; vokal, gitar, bas gitar 
 Gelecek provaları tarih ve açıklama ekleyerek planlamayı, yapılmış eski provaları ise notlarıyla birlikte arşivlemeyi sağlayan yönetim alanı:
 
 <p align="center">
-  <img width="850" alt="Provalar Takip Ekranı" src="https://github.com/user-attachments/assets/d2c49172-2699-41aa-aa9d-85a4a417deaa" />
+  <img width="1367" height="847" alt="proje_gorsel_4" src="https://github.com/user-attachments/assets/27abc835-f7c0-4c05-8cc7-797ab24542ca" />
 </p>
 
 ---
@@ -73,7 +73,7 @@ Gelecek provaları tarih ve açıklama ekleyerek planlamayı, yapılmış eski p
 Farklı sahneler ve etkinlik günleri için repertuvardan seçilen şarkılarla oluşturulmuş, sahne akış sırasına göre dizilmiş canlı performans listeleri:
 
 <p align="center">
-  <img width="850" alt="Setlist Oluşturma Ekranı" src="https://github.com/user-attachments/assets/proje_gorsel_5.png-3da5e080-652d-49f7-85d3-b51c21505994" />
+  <img width="1631" height="885" alt="proje_gorsel_5" src="https://github.com/user-attachments/assets/1acbeea7-40cf-4a0c-85cd-95dd3c90eb1f" />
 </p>
 
 ---
